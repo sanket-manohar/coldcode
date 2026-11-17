@@ -16,7 +16,7 @@
 <br>
 
 [![Watch on YouTube](https://img.shields.io/badge/WATCH%20ON%20YOUTUBE-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@sanketmanoharstudio)
-[![Website](https://img.shields.io/badge/SERIES%20WEBSITE-0b0d0b?style=for-the-badge&logo=googlechrome&logoColor=white)](https://YOUR_GITHUB_USERNAME.github.io/coldcode/)
+[![Website](https://img.shields.io/badge/SERIES%20WEBSITE-0b0d0b?style=for-the-badge&logo=googlechrome&logoColor=white)](https://sanket-manohar.github.io/coldcode/)
 
 ![episodes](https://img.shields.io/badge/episodes-1-c4a465?style=flat-square)
 ![out now](https://img.shields.io/badge/out%20now-0-b3121b?style=flat-square)
@@ -48,7 +48,7 @@ The message is simple: **truth always leaves data, and technology knows how to r
 <!-- EPISODES:START -->
 | # | Episode | Technology | Watch | Sources | Status |
 |:---:|---|---|:---:|:---:|:---:|
-| **01** | [**The Floppy Disk That Solved a 30-Year Mystery**](https://YOUR_GITHUB_USERNAME.github.io/coldcode/#episode-01)<br><sub>वो फ़्लॉपी डिस्क जिसने 30 साल पुराना रहस्य सुलझाया</sub> | File Metadata & DNA | [![Watch](https://img.shields.io/badge/Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=4_WRsYWUSXU) | [![PDF](https://img.shields.io/badge/PDF-c4a465?style=flat-square&logo=adobeacrobatreader&logoColor=white)](episodes/EP01-the-floppy-disk-mystery/COLD-CODE-Case-01-Sources.pdf) | ![premieres](https://img.shields.io/badge/Premieres%2020%20Nov%202026-e8b04a?style=flat-square&logo=youtube&logoColor=white) |
+| **01** | [**The Floppy Disk That Solved a 30-Year Mystery**](https://sanket-manohar.github.io/coldcode/#episode-01)<br><sub>वो फ़्लॉपी डिस्क जिसने 30 साल पुराना रहस्य सुलझाया</sub> | File Metadata & DNA | [![Watch](https://img.shields.io/badge/Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=4_WRsYWUSXU) | [![PDF](https://img.shields.io/badge/PDF-c4a465?style=flat-square&logo=adobeacrobatreader&logoColor=white)](episodes/EP01-the-floppy-disk-mystery/COLD-CODE-Case-01-Sources.pdf) | ![premieres](https://img.shields.io/badge/Premieres%2020%20Nov%202026-e8b04a?style=flat-square&logo=youtube&logoColor=white) |
 <!-- EPISODES:END -->
 
 <sub>⚙️ Generated from <code>data/episodes.json</code> by GitHub Actions. Don't edit the table by hand.</sub>
@@ -71,7 +71,7 @@ A case stayed unsolved for 30 years. Then one floppy disk arrived, and a single 
 
 ## 🌐 SERIES WEBSITE
 
-**→ https://YOUR_GITHUB_USERNAME.github.io/coldcode/**
+**→ https://sanket-manohar.github.io/coldcode/**
 
 A cinematic home for the show: a title-card intro, film grain, a flashlight effect on the opening screen, episode cards with polaroids, and a popup that plays the episode inside the page and lists what you'll learn. One button switches the whole site between English and हिन्दी.
 
