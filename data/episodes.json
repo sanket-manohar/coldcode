@@ -3,28 +3,42 @@
     "name": "COLD CODE",
     "studio": "Sanket Manohar Studio",
     "tagline": {
-      "en": "Every killer leaves code behind.",
-      "hi": "हर हत्यारा पीछे कोई कोड छोड़ जाता है।"
+      "en": "No secret stays hidden from technology. Learn the tech.",
+      "hi": "टेक्नोलॉजी से कोई राज़ छिपा नहीं रहता। टेक्नोलॉजी सीखिए।"
     },
     "youtube_channel": "https://www.youtube.com/@sanketmanoharstudio"
   },
   "episodes": [
     {
       "number": 1,
-      "slug": "EP01-the-floppy-disk-that-caught-a-killer",
+      "slug": "EP01-the-floppy-disk-mystery",
       "status": "released",
       "release_date": "2026-11-20",
       "title": {
-        "en": "The Floppy Disk That Caught a Killer",
-        "hi": "वो फ़्लॉपी डिस्क जिसने एक हत्यारे को पकड़वाया"
+        "en": "The Floppy Disk That Solved a 30-Year Mystery",
+        "hi": "वो फ़्लॉपी डिस्क जिसने 30 साल पुराना रहस्य सुलझाया"
       },
       "subtitle": {
-        "en": "How hidden metadata unmasked BTK",
-        "hi": "छिपे मेटाडेटा ने BTK का नकाब कैसे उतारा"
+        "en": "How hidden file metadata revealed the truth",
+        "hi": "फ़ाइल के छिपे मेटाडेटा ने सच कैसे सामने लाया"
       },
       "summary": {
-        "en": "For 30 years, a killer taunted Wichita, Kansas with letters, poems and packages, and was never caught. Then he asked the police one question: could a floppy disk be traced? They said no. That was a bluff. This is the true story of how one deleted Word file, its hidden metadata and a familial DNA match ended a three-decade manhunt, and what it teaches you about the data hiding in your own files.",
-        "hi": "30 साल तक एक हत्यारा विचिटा, कैनसस को चिट्ठियों, कविताओं और पैकेटों से चिढ़ाता रहा, और कभी पकड़ा नहीं गया। फिर उसने पुलिस से एक सवाल पूछा: क्या फ़्लॉपी डिस्क को ट्रेस किया जा सकता है? पुलिस ने कहा नहीं। वो एक चाल थी। यह सच्ची कहानी है कि कैसे एक डिलीट की गई Word फ़ाइल, उसका छिपा मेटाडेटा और एक पारिवारिक डीएनए मैच ने तीन दशक लंबी तलाश ख़त्म की, और यह आपकी अपनी फ़ाइलों में छिपे डेटा के बारे में क्या सिखाती है।"
+        "en": "For 30 years, a case in Wichita, Kansas stayed unsolved. Then a single floppy disk arrived, and inside one Word file was something few people knew existed: metadata. This episode shows how file metadata and DNA science brought out the truth, and how the same technology quietly works inside the files on your own computer.",
+        "hi": "30 साल तक विचिटा, कैनसस का एक केस अनसुलझा रहा। फिर एक फ़्लॉपी डिस्क आई, और उसकी एक Word फ़ाइल में कुछ ऐसा था जिसके बारे में बहुत कम लोग जानते थे: मेटाडेटा। यह एपिसोड दिखाता है कि फ़ाइल मेटाडेटा और डीएनए विज्ञान ने सच कैसे सामने लाया, और यही टेक्नोलॉजी आपके अपने कंप्यूटर की फ़ाइलों में चुपचाप कैसे काम करती है।"
+      },
+      "learn": {
+        "en": [
+          "What file metadata is, and what a document records about itself",
+          "How a floppy disk stores files, even after they are deleted",
+          "How DNA comparison works in modern science",
+          "How to view the metadata of files on your own computer"
+        ],
+        "hi": [
+          "फ़ाइल मेटाडेटा क्या है, और एक डॉक्यूमेंट अपने बारे में क्या दर्ज करता है",
+          "फ़्लॉपी डिस्क फ़ाइलें कैसे सेव करती है, डिलीट होने के बाद भी",
+          "आधुनिक विज्ञान में डीएनए की तुलना कैसे होती है",
+          "अपने कंप्यूटर की फ़ाइलों का मेटाडेटा कैसे देखें"
+        ]
       },
       "year": "1974–2005",
       "location": "Wichita, Kansas, USA",
@@ -35,7 +49,7 @@
         "hi": "https://www.youtube.com/watch?v=4_WRsYWUSXU"
       },
       "poster": "",
-      "references_pdf": "episodes/EP01-the-floppy-disk-that-caught-a-killer/COLD-CODE-Case-01-Sources.pdf"
+      "references_pdf": "episodes/EP01-the-floppy-disk-mystery/COLD-CODE-Case-01-Sources.pdf"
     }
   ]
 }

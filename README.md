@@ -7,11 +7,11 @@
 ██║     ██║   ██║██║     ██║  ██║    ██║     ██║   ██║██║  ██║██╔══╝
 ╚██████╗╚██████╔╝███████╗██████╔╝    ╚██████╗╚██████╔╝██████╔╝███████╗
  ╚═════╝ ╚═════╝ ╚══════╝╚═════╝      ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝
-           ▶  A YOUTUBE DOCUMENTARY SERIES  ·  SEASON 1  ◀
+        ▶  A YOUTUBE SERIES ABOUT THE POWER OF TECHNOLOGY  ◀
 ```
 
-### *Every killer leaves code behind.*
-### *हर हत्यारा पीछे कोई कोड छोड़ जाता है।*
+### *No secret stays hidden from technology. Learn the tech.*
+### *टेक्नोलॉजी से कोई राज़ छिपा नहीं रहता। टेक्नोलॉजी सीखिए।*
 
 <br>
 
@@ -29,11 +29,13 @@
 
 ---
 
-## 🎬 ABOUT THE SERIES
+## 💡 ABOUT THE SERIES
 
-**COLD CODE** is an educational documentary web series on YouTube, in **English** and **हिन्दी**.
+**COLD CODE** is an educational YouTube series, in **English** and **हिन्दी**, about how **technology uncovers the truth**.
 
-Each episode retells a well-documented real case and explains the **invention or technology** that cracked it: hidden file metadata, DNA, radio, and more. The people involved planned for the world they knew. Technology changed that world.
+Each episode takes a real, well-documented mystery that stayed unsolved for years, and shows the **invention or technology** that finally brought out the facts: file metadata, DNA science, radio and more.
+
+The message is simple: **truth always leaves data, and technology knows how to read it.** So learn the technology.
 
 > 📄 Every episode ships with a **Sources PDF**: every fact, its source and when it was checked.
 
@@ -41,12 +43,12 @@ Each episode retells a well-documented real case and explains the **invention or
 
 ## 📺 EPISODES
 
-> **▶ EN / ▶ HI** watch on YouTube · **📄** sources PDF · **📁** episode folder · **🎬** episode page on the website
+> Click a title to open its page on the website.
 
 <!-- EPISODES:START -->
-| Ep | Title | When · Where | Technology | Runtime | English | हिन्दी | Sources | Website | Status |
-|:---:|---|---|---|:---:|:---:|:---:|:---:|:---:|:---:|
-| `01` | **The Floppy Disk That Caught a Killer**<br><sub>वो फ़्लॉपी डिस्क जिसने एक हत्यारे को पकड़वाया</sub> | 1974–2005 · Wichita, Kansas, USA | `File Metadata & DNA` | 11:00 | [▶ EN](https://www.youtube.com/watch?v=4_WRsYWUSXU) | [▶ HI](https://www.youtube.com/watch?v=4_WRsYWUSXU) | [📄 PDF](episodes/EP01-the-floppy-disk-that-caught-a-killer/COLD-CODE-Case-01-Sources.pdf) [📁](episodes/EP01-the-floppy-disk-that-caught-a-killer) | [🎬 page](https://YOUR_GITHUB_USERNAME.github.io/coldcode/#episode-01) | 🗓️ PREMIERES<br>20 Nov 2026 |
+| # | Episode | Technology | Watch | Sources | Status |
+|:---:|---|---|:---:|:---:|:---:|
+| **01** | [**The Floppy Disk That Solved a 30-Year Mystery**](https://YOUR_GITHUB_USERNAME.github.io/coldcode/#episode-01)<br><sub>वो फ़्लॉपी डिस्क जिसने 30 साल पुराना रहस्य सुलझाया</sub> | File Metadata & DNA | [![Watch](https://img.shields.io/badge/Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=4_WRsYWUSXU) | [![PDF](https://img.shields.io/badge/PDF-c4a465?style=flat-square&logo=adobeacrobatreader&logoColor=white)](episodes/EP01-the-floppy-disk-mystery/COLD-CODE-Case-01-Sources.pdf) | ![premieres](https://img.shields.io/badge/Premieres%2020%20Nov%202026-e8b04a?style=flat-square&logo=youtube&logoColor=white) |
 <!-- EPISODES:END -->
 
 <sub>⚙️ Generated from <code>data/episodes.json</code> by GitHub Actions. Don't edit the table by hand.</sub>
@@ -55,13 +57,15 @@ Each episode retells a well-documented real case and explains the **invention or
 
 ## 🔦 NOW SHOWING · Episode 01
 
-<a href="https://www.youtube.com/watch?v=4_WRsYWUSXU"><img src="https://i.ytimg.com/vi/4_WRsYWUSXU/hqdefault.jpg" width="560" alt="COLD CODE Episode 01 — The Floppy Disk That Caught a Killer"></a>
+<a href="https://www.youtube.com/watch?v=4_WRsYWUSXU"><img src="https://i.ytimg.com/vi/4_WRsYWUSXU/hqdefault.jpg" width="560" alt="COLD CODE Episode 01 — The Floppy Disk That Solved a 30-Year Mystery"></a>
 
-**The Floppy Disk That Caught a Killer** · *वो फ़्लॉपी डिस्क जिसने एक हत्यारे को पकड़वाया*
+**The Floppy Disk That Solved a 30-Year Mystery** · *वो फ़्लॉपी डिस्क जिसने 30 साल पुराना रहस्य सुलझाया*
 
-For 30 years a killer taunted Wichita, Kansas, and was never caught. Then he asked the police whether a floppy disk could be traced. They said no. That was a bluff. One deleted Word file, its hidden metadata and a familial DNA match ended the manhunt.
+A case stayed unsolved for 30 years. Then one floppy disk arrived, and a single Word file on it carried hidden **metadata**. Together with **DNA science**, that small piece of data brought out the truth.
 
-🗓️ Premieres **Friday 20 Nov 2026 · 7:30 PM IST** · ⏱ 11:00 · [📄 Sources](episodes/EP01-the-floppy-disk-that-caught-a-killer/COLD-CODE-Case-01-Sources.pdf) · [📁 Episode folder](episodes/EP01-the-floppy-disk-that-caught-a-killer)
+**🧠 You'll learn:** what file metadata is · how floppy disks store files · how DNA comparison works · how to view the metadata of your own files
+
+🗓️ Premieres **Friday 20 Nov 2026 · 7:30 PM IST** · ⏱ 11:00 · [📄 Sources](episodes/EP01-the-floppy-disk-mystery/COLD-CODE-Case-01-Sources.pdf) · [📁 Episode folder](episodes/EP01-the-floppy-disk-mystery)
 
 ---
 
@@ -69,7 +73,7 @@ For 30 years a killer taunted Wichita, Kansas, and was never caught. Then he ask
 
 **→ https://YOUR_GITHUB_USERNAME.github.io/coldcode/**
 
-A cinematic, noir-style home for the show: a title-card intro, film grain, a flickering title, a flashlight effect on the opening screen, episode cards styled like folders with polaroids, and a popup that plays the episode inside the page. One button switches the whole site between English and हिन्दी.
+A cinematic home for the show: a title-card intro, film grain, a flashlight effect on the opening screen, episode cards with polaroids, and a popup that plays the episode inside the page and lists what you'll learn. One button switches the whole site between English and हिन्दी.
 
 There's no build step and no framework. The site reads **one file**: `data/episodes.json`.
 
@@ -88,7 +92,7 @@ coldcode/
 │   └── episodes.json          ← ★ THE ONLY FILE YOU EDIT ★
 ├── episodes/
 │   ├── _TEMPLATE/
-│   └── EP01-the-floppy-disk-that-caught-a-killer/
+│   └── EP01-the-floppy-disk-mystery/
 │       ├── README.md
 │       └── COLD-CODE-Case-01-Sources.pdf
 ├── scripts/
@@ -103,35 +107,36 @@ coldcode/
 ## ➕ ADDING THE NEXT EPISODE
 
 ```bash
-node scripts/new-episode.mjs "radar-trap" "The Radar Trap" "रडार का जाल"
+node scripts/new-episode.mjs "radio-signal" "The Radio Signal" "रेडियो सिग्नल"
 ```
 
-This creates `episodes/EP02-radar-trap/` and a new entry in `data/episodes.json`. Then:
+This creates `episodes/EP02-radio-signal/` and a new entry in `data/episodes.json`. Then:
 
-1. Fill in the entry: titles, summary, year, place, technology, runtime, YouTube link and `release_date`. Set `"status": "released"` once the video is scheduled or public.
+1. Fill in the entry: titles, summary, what viewers will learn, year, place, technology, runtime, YouTube link and `release_date`. Set `"status": "released"` once the video is scheduled or public.
 2. Put `COLD-CODE-Case-02-Sources.pdf` in the new folder.
 3. Push:
 
 ```bash
-git add . && git commit -m "episode 02: the radar trap" && git push
+git add . && git commit -m "episode 02: the radio signal" && git push
 ```
 
 The website updates on its own. GitHub Actions rewrites the episode table in this README, and on the premiere date flips the status to **OUT NOW**.
 
 ---
 
-## ⚖️ DISCLAIMER
+## ℹ️ DISCLAIMER
 
-COLD CODE is an **independent educational YouTube series** by Sanket Manohar Studio. It is **not affiliated with, endorsed by, or acting for any police force, government, court or law-enforcement agency**, or any person or organization mentioned. Episodes are based on publicly available reports, court records and news coverage. Scenes are AI-illustrated dramatizations; characters are not depictions of real people. In memory of the victims and their families. Full terms: [`terms.html`](terms.html).
+COLD CODE is an **independent educational YouTube series** by Sanket Manohar Studio, made to encourage learning about science and technology. It is **not affiliated with, endorsed by, or acting for any government department, agency or organization**, or any person mentioned. Episodes are based on publicly available reports, published records and news coverage, and contain no disturbing content. Scenes are AI-illustrated dramatizations; characters are not depictions of real people. Told with respect for everyone affected by these events. Full terms: [`terms.html`](terms.html).
 
 ---
 
 <div align="center">
 
 ```
- ┌───────────────────────────────────────────────────────────────┐
- │   NO CASE IS EVER COLD.  IT'S JUST WAITING FOR ITS INVENTION. │
- └───────────────────────────────────────────────────────────────┘
+ ┌──────────────────────────────────────────────────────────┐
+ │   TRUTH ALWAYS LEAVES DATA.  TECHNOLOGY KNOWS HOW TO     │
+ │   READ IT.  LEARN THE TECH.                              │
+ └──────────────────────────────────────────────────────────┘
 ```
 
 **▶ NEW EPISODES ON YOUTUBE · [SUBSCRIBE](https://www.youtube.com/@sanketmanoharstudio?sub_confirmation=1)**

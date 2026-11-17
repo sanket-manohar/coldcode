@@ -16,16 +16,16 @@
       skip: "SKIP ▸", intro_pre: "A documentary series on YouTube", intro_post: "Season 1 · English & हिन्दी",
       nav_episodes: "Episodes", nav_about: "About", nav_terms: "Terms", subscribe: "Subscribe",
       badge: "A YouTube documentary series · English & हिन्दी",
-      hero_desc: "True stories of famous cases, and the inventions and technology that helped solve them.",
+      hero_desc: "Real stories where technology uncovered the truth, and the science behind it, explained simply so you can learn it too.",
       cta_latest: "▶ Watch latest episode", cta_all: "All episodes", hint: "move your flashlight",
       latest_title: "Latest Episode", episodes_title: "Episodes",
       about_kicker: "ABOUT THE SERIES", about_title: "What is COLD CODE?",
-      about_p1: "COLD CODE is an educational documentary series published on YouTube. Each episode retells a well-documented historical case and explains the invention or technology, from radio to DNA, that helped solve it.",
-      about_p2: "Every episode is researched from public sources such as books, court records and news reports, and its full reference list is published alongside the video.",
+      about_p1: "COLD CODE is an educational series on YouTube about the power of technology. Each episode takes a real mystery that stayed unsolved for years and shows the invention or technology, from radio to file metadata to DNA science, that finally brought out the truth. The message is simple: no secret stays hidden from technology, so learn the tech.",
+      about_p2: "Every episode is researched from public sources such as books, published records and news reports, and its full reference list is published alongside the video.",
       about_p3: "Available in English and Hindi.", about_cta: "▶ Watch on YouTube",
-      disclaimer: "COLD CODE is an independent educational YouTube series. It is not affiliated with, endorsed by, or acting for any police force, government, court or law-enforcement agency. All stories are based on publicly available sources. Scenes are AI-illustrated dramatizations; characters are not depictions of real people.",
+      disclaimer: "COLD CODE is an independent educational YouTube series that encourages learning about science and technology. It is not affiliated with, endorsed by, or acting for any government department, agency or organization. All stories are based on publicly available sources. Scenes are AI-illustrated dramatizations; characters are not depictions of real people.",
       ep: "EPISODE", watchNow: "WATCH NOW", premieres: "PREMIERES", audioHint: "Hindi audio: open ⚙ Settings → Audio track in the player", soon: "COMING SOON", watchEp: "▶ Watch episode", details: "Details ▸",
-      refs: "Sources (PDF)", ytOpen: "Open on YouTube",
+      refs: "Sources (PDF)", learn: "What you'll learn", ytOpen: "Open on YouTube",
       year: "Year", place: "Location", tech: "Technology", released: "Release date", duration: "Runtime",
       audio: "LANGUAGE", pending: "COMING SOON", pendingSub: "PREMIERES ON YOUTUBE",
       notAvail: "Not available in this language yet",
@@ -35,16 +35,16 @@
       skip: "छोड़ें ▸", intro_pre: "YouTube पर एक डॉक्यूमेंट्री सीरीज़", intro_post: "सीज़न 1 · English और हिन्दी",
       nav_episodes: "एपिसोड", nav_about: "परिचय", nav_terms: "नियम व शर्तें", subscribe: "सब्सक्राइब",
       badge: "YouTube डॉक्यूमेंट्री सीरीज़ · English और हिन्दी",
-      hero_desc: "मशहूर केसों की सच्ची कहानियाँ, और वो आविष्कार व तकनीकें जिनकी मदद से वो सुलझे।",
+      hero_desc: "सच्ची कहानियाँ जहाँ टेक्नोलॉजी ने सच सामने लाया, और उसके पीछे का विज्ञान, आसान भाषा में ताकि आप भी उसे सीख सकें।",
       cta_latest: "▶ नया एपिसोड देखें", cta_all: "सभी एपिसोड", hint: "अपनी टॉर्च घुमाइए",
       latest_title: "नया एपिसोड", episodes_title: "एपिसोड",
       about_kicker: "सीरीज़ के बारे में", about_title: "COLD CODE क्या है?",
-      about_p1: "COLD CODE YouTube पर प्रकाशित एक शैक्षिक डॉक्यूमेंट्री सीरीज़ है। हर एपिसोड एक प्रसिद्ध और अच्छी तरह दर्ज ऐतिहासिक केस की कहानी बताता है और समझाता है कि रेडियो से लेकर डीएनए तक, किस आविष्कार या तकनीक ने उसे सुलझाने में मदद की।",
-      about_p2: "हर एपिसोड किताबों, अदालती रिकॉर्ड और समाचार रिपोर्ट जैसे सार्वजनिक स्रोतों से तैयार होता है, और उसकी पूरी रेफ़रेंस सूची वीडियो के साथ प्रकाशित की जाती है।",
+      about_p1: "COLD CODE टेक्नोलॉजी की ताक़त के बारे में YouTube पर एक शैक्षिक सीरीज़ है। हर एपिसोड एक ऐसा असली रहस्य लेता है जो सालों तक अनसुलझा रहा, और दिखाता है कि रेडियो, फ़ाइल मेटाडेटा या डीएनए विज्ञान जैसे किस आविष्कार या तकनीक ने आख़िरकार सच सामने लाया। संदेश सीधा है: टेक्नोलॉजी से कोई राज़ छिपा नहीं रहता, इसलिए टेक्नोलॉजी सीखिए।",
+      about_p2: "हर एपिसोड किताबों, प्रकाशित रिकॉर्ड और समाचार रिपोर्ट जैसे सार्वजनिक स्रोतों से तैयार होता है, और उसकी पूरी रेफ़रेंस सूची वीडियो के साथ प्रकाशित की जाती है।",
       about_p3: "English और हिन्दी में उपलब्ध।", about_cta: "▶ YouTube पर देखें",
-      disclaimer: "COLD CODE एक स्वतंत्र शैक्षिक YouTube सीरीज़ है। इसका किसी भी पुलिस, सरकार, अदालत या क़ानून-प्रवर्तन एजेंसी से कोई संबंध नहीं है, न ही यह उनकी ओर से काम करती है। सभी कहानियाँ सार्वजनिक रूप से उपलब्ध स्रोतों पर आधारित हैं। दृश्य AI से बनाए गए नाटकीय चित्रण हैं; पात्र असली लोगों का चित्रण नहीं हैं।",
+      disclaimer: "COLD CODE एक स्वतंत्र शैक्षिक YouTube सीरीज़ है जो विज्ञान और टेक्नोलॉजी सीखने को बढ़ावा देती है। इसका किसी भी सरकारी विभाग, एजेंसी या संगठन से कोई संबंध नहीं है, न ही यह उनकी ओर से काम करती है। सभी कहानियाँ सार्वजनिक रूप से उपलब्ध स्रोतों पर आधारित हैं। दृश्य AI से बनाए गए नाटकीय चित्रण हैं; पात्र असली लोगों का चित्रण नहीं हैं।",
       ep: "एपिसोड", watchNow: "अभी देखें", premieres: "प्रीमियर", audioHint: "हिन्दी ऑडियो: प्लेयर में ⚙ सेटिंग्स → ऑडियो ट्रैक चुनें", soon: "जल्द आ रहा है", watchEp: "▶ एपिसोड देखें", details: "विवरण ▸",
-      refs: "स्रोत (PDF)", ytOpen: "YouTube पर खोलें",
+      refs: "स्रोत (PDF)", learn: "आप क्या सीखेंगे", ytOpen: "YouTube पर खोलें",
       year: "साल", place: "जगह", tech: "तकनीक", released: "रिलीज़ तारीख़", duration: "अवधि",
       audio: "भाषा", pending: "जल्द आ रहा है", pendingSub: "YouTube पर प्रीमियर",
       notAvail: "इस भाषा में अभी उपलब्ध नहीं",
@@ -256,6 +256,8 @@
     typewrite($("#mSummary"), L(ep.summary), animate ? 14 : 0);
     const facts = [[t("year"), ep.year], [t("place"), ep.location], [t("tech"), ep.technology], [t("released"), fmtDate(ep.release_date)], [t("duration"), ep.duration]].filter((f) => f[1]);
     $("#mFacts").innerHTML = facts.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("");
+    const learn = (ep.learn && (ep.learn[state.lang] || ep.learn.en)) || [];
+    $("#mLearn").innerHTML = learn.length ? `<p class="learn-title">💡 ${esc(t("learn"))}</p><ul>${learn.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : "";
     const yt = ytId(ep.youtube?.[state.audioLang]);
     $("#mActions").innerHTML = [
       yt ? `<a class="btn btn-dark" href="https://www.youtube.com/watch?v=${yt}" target="_blank" rel="noopener">${t("ytOpen")}</a>` : "",

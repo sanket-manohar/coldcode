@@ -33,32 +33,38 @@ const ytId = (v) => {
   const m = String(v).match(/(?:youtu\.be\/|v=|embed\/|shorts\/|live\/)([\w-]{11})/);
   return m ? m[1] : (/^[\w-]{11}$/.test(v) ? v : "");
 };
-const yt = (v, label) => {
-  const id = ytId(v);
-  return id ? `[▶ ${label}](https://www.youtube.com/watch?v=${id})` : "`soon`";
-};
+const badge = (label, color, logo) =>
+  `https://img.shields.io/badge/${encodeURIComponent(label.replace(/-/g, "--"))}-${color}?style=flat-square${logo ? `&logo=${logo}&logoColor=white` : ""}`;
 const today = new Date().toISOString().slice(0, 10);
 const fmt = (iso) => {
   const d = new Date(iso + "T00:00:00Z");
   return isNaN(d) ? iso : d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
 };
-const statusOf = (ep) => {
-  if (ep.status !== "released") return "⏳ COMING SOON";
-  if (ep.release_date && ep.release_date > today) return `🗓️ PREMIERES<br>${fmt(ep.release_date)}`;
-  return "🔴 **OUT NOW**";
+
+/* Watch: one YouTube badge when English and Hindi share a video, otherwise EN + HI */
+const watch = (ep) => {
+  const en = ytId(ep.youtube?.en), hi = ytId(ep.youtube?.hi);
+  const b = (id, label) => `[![${label}](${badge(label, "FF0000", "youtube")})](https://www.youtube.com/watch?v=${id})`;
+  if (en && hi && en !== hi) return `${b(en, "EN")} ${b(hi, "HI")}`;
+  if (en || hi) return b(en || hi, "Watch");
+  return "—";
+};
+const sources = (ep) => ep.references_pdf
+  ? `[![PDF](${badge("PDF", "c4a465", "adobeacrobatreader")})](${encodeURI(ep.references_pdf)})`
+  : "—";
+const status = (ep) => {
+  if (ep.status !== "released") return `![soon](${badge("Coming soon", "555555", "")})`;
+  if (ep.release_date && ep.release_date > today) return `![premieres](${badge("Premieres " + fmt(ep.release_date), "e8b04a", "youtube")})`;
+  return `![out now](${badge("Out now", "b3121b", "youtube")})`;
 };
 
 const eps = [...data.episodes].sort((a, b) => a.number - b.number);
-const rows = eps.map((ep) => {
-  const title = `**${ep.title?.en ?? ""}**<br><sub>${ep.title?.hi ?? ""}</sub>`;
-  const refs = ep.references_pdf ? `[📄 PDF](${encodeURI(ep.references_pdf)})` : "—";
-  const folder = `[📁](episodes/${ep.slug})`;
-  const web = `[🎬 page](${site}#episode-${pad(ep.number)})`;
-  return `| \`${pad(ep.number)}\` | ${title} | ${ep.year ?? ""} · ${ep.location ?? ""} | \`${ep.technology ?? ""}\` | ${ep.duration || "—"} | ${yt(ep.youtube?.en, "EN")} | ${yt(ep.youtube?.hi, "HI")} | ${refs} ${folder} | ${web} | ${statusOf(ep)} |`;
-});
+const rows = eps.map((ep) =>
+  `| **${pad(ep.number)}** | [**${ep.title?.en ?? ""}**](${site}#episode-${pad(ep.number)})<br><sub>${ep.title?.hi ?? ""}</sub> | ${ep.technology ?? ""} | ${watch(ep)} | ${sources(ep)} | ${status(ep)} |`
+);
 const table = [
-  "| Ep | Title | When · Where | Technology | Runtime | English | हिन्दी | Sources | Website | Status |",
-  "|:---:|---|---|---|:---:|:---:|:---:|:---:|:---:|:---:|",
+  "| # | Episode | Technology | Watch | Sources | Status |",
+  "|:---:|---|---|:---:|:---:|:---:|",
   ...rows
 ].join("\n");
 
