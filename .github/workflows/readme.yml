@@ -1,0 +1,36 @@
+name: Update README episode table
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/episodes.json"
+      - "README.md"
+      - "scripts/build-readme.mjs"
+  schedule:
+    - cron: "30 14 * * *"   # daily 8:00 PM IST, flips "Premieres" to "Out now"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/build-readme.mjs
+      - name: Commit if changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "README already current."
+          else
+            git config user.name  "cold-code-bot"
+            git config user.email "cold-code-bot@users.noreply.github.com"
+            git add README.md
+            git commit -m "auto: update episode table"
+            git push
+          fi
