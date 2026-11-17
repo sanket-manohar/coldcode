@@ -26,7 +26,9 @@
 **Windows:** right-click any file → **Properties** → **Details**. You'll see the author, the program, and the dates the file carries with it.
 **Mac:** select a file → **Get Info** → **More Info**.
 
-Every file tells a story. Technology knows how to read it.
+Knowing what your files carry helps you decide what to share, and keeps you safer online.
+
+> 🎯 **Learn technology · Stay alert · Stay safe**
 
 ---
 

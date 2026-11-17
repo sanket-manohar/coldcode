@@ -52,19 +52,14 @@ const watch = (ep) => {
 const sources = (ep) => ep.references_pdf
   ? `[![PDF](${badge("PDF", "c4a465", "adobeacrobatreader")})](${encodeURI(ep.references_pdf)})`
   : "—";
-const status = (ep) => {
-  if (ep.status !== "released") return `![soon](${badge("Coming soon", "555555", "")})`;
-  if (ep.release_date && ep.release_date > today) return `![premieres](${badge("Premieres " + fmt(ep.release_date), "e8b04a", "youtube")})`;
-  return `![out now](${badge("Out now", "b3121b", "youtube")})`;
-};
 
 const eps = [...data.episodes].sort((a, b) => a.number - b.number);
 const rows = eps.map((ep) =>
-  `| **${pad(ep.number)}** | [**${ep.title?.en ?? ""}**](${site}#episode-${pad(ep.number)})<br><sub>${ep.title?.hi ?? ""}</sub> | ${ep.technology ?? ""} | ${watch(ep)} | ${sources(ep)} | ${status(ep)} |`
+  `| **${pad(ep.number)}** | [**${ep.title?.en ?? ""}**](${site}#episode-${pad(ep.number)})<br><sub>${ep.title?.hi ?? ""}</sub> | ${ep.technology ?? ""} | ${watch(ep)} | ${sources(ep)} |`
 );
 const table = [
-  "| # | Episode | Technology | Watch | Sources | Status |",
-  "|:---:|---|---|:---:|:---:|:---:|",
+  "| # | Episode | Technology | Watch | Sources |",
+  "|:---:|---|---|:---:|:---:|",
   ...rows
 ].join("\n");
 
