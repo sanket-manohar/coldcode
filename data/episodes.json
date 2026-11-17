@@ -1,0 +1,41 @@
+{
+  "series": {
+    "name": "COLD CODE",
+    "studio": "Sanket Manohar Studio",
+    "tagline": {
+      "en": "Every killer leaves code behind.",
+      "hi": "हर हत्यारा पीछे कोई कोड छोड़ जाता है।"
+    },
+    "youtube_channel": "https://www.youtube.com/@sanketmanoharstudio"
+  },
+  "episodes": [
+    {
+      "number": 1,
+      "slug": "EP01-the-floppy-disk-that-caught-a-killer",
+      "status": "released",
+      "release_date": "2026-11-20",
+      "title": {
+        "en": "The Floppy Disk That Caught a Killer",
+        "hi": "वो फ़्लॉपी डिस्क जिसने एक हत्यारे को पकड़वाया"
+      },
+      "subtitle": {
+        "en": "How hidden metadata unmasked BTK",
+        "hi": "छिपे मेटाडेटा ने BTK का नकाब कैसे उतारा"
+      },
+      "summary": {
+        "en": "For 30 years, a killer taunted Wichita, Kansas with letters, poems and packages, and was never caught. Then he asked the police one question: could a floppy disk be traced? They said no. That was a bluff. This is the true story of how one deleted Word file, its hidden metadata and a familial DNA match ended a three-decade manhunt, and what it teaches you about the data hiding in your own files.",
+        "hi": "30 साल तक एक हत्यारा विचिटा, कैनसस को चिट्ठियों, कविताओं और पैकेटों से चिढ़ाता रहा, और कभी पकड़ा नहीं गया। फिर उसने पुलिस से एक सवाल पूछा: क्या फ़्लॉपी डिस्क को ट्रेस किया जा सकता है? पुलिस ने कहा नहीं। वो एक चाल थी। यह सच्ची कहानी है कि कैसे एक डिलीट की गई Word फ़ाइल, उसका छिपा मेटाडेटा और एक पारिवारिक डीएनए मैच ने तीन दशक लंबी तलाश ख़त्म की, और यह आपकी अपनी फ़ाइलों में छिपे डेटा के बारे में क्या सिखाती है।"
+      },
+      "year": "1974–2005",
+      "location": "Wichita, Kansas, USA",
+      "technology": "File Metadata & DNA",
+      "duration": "11:00",
+      "youtube": {
+        "en": "https://www.youtube.com/watch?v=4_WRsYWUSXU",
+        "hi": "https://www.youtube.com/watch?v=4_WRsYWUSXU"
+      },
+      "poster": "",
+      "references_pdf": "episodes/EP01-the-floppy-disk-that-caught-a-killer/COLD-CODE-Case-01-Sources.pdf"
+    }
+  ]
+}
