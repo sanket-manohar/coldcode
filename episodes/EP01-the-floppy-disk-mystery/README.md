@@ -2,34 +2,22 @@
 
 > **वो फ़्लॉपी डिस्क जिसने 30 साल पुराना रहस्य सुलझाया**
 
-[![Watch on YouTube](https://img.shields.io/badge/WATCH%20ON%20YOUTUBE-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=4_WRsYWUSXU)
+[![Watch on YouTube](https://img.shields.io/badge/WATCH%20ON%20YOUTUBE-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=LHEsMbhs1wE)
 [![Sources PDF](https://img.shields.io/badge/SOURCES-PDF-c4a465?style=for-the-badge)](COLD-CODE-Case-01-Sources.pdf)
+
+For 30 years, a series of crimes in Wichita, Kansas stayed unsolved. Then a single floppy disk arrived, and inside one Word file was something nobody expected: hidden metadata. Together with DNA science, that tiny trace of data finally brought out the truth.
 
 | | |
 |---|---|
-| **Story** | A 30-year-old case from Wichita, Kansas (1974–2005) |
-| **Technology featured** | File metadata on a floppy disk, and DNA science |
+| **Story** | Wichita, Kansas (1974–2005) |
+| **Solved by** | Hidden file metadata on a floppy disk, and DNA science |
 | **Runtime** | 11:00 |
-| **Premiere** | Friday, 20 Nov 2026 · 7:30 PM IST |
-| **Audio** | English · हिन्दी (audio track on the same video) |
-| **Sources** | [`COLD-CODE-Case-01-Sources.pdf`](COLD-CODE-Case-01-Sources.pdf) |
+| **Released** | Saturday, 21 Nov 2026 · 10:45 AM IST |
+| **Audio** | English · हिन्दी · Español |
+| **Sources** | [`COLD-CODE-Case-01-Sources.pdf`](COLD-CODE-Case-01-Sources.pdf) (v1.2) |
 
-## 🧠 What you'll learn
-
-- What **file metadata** is, and what a document quietly records about itself
-- How a **floppy disk** stores files, even after they are deleted
-- How **DNA comparison** works in modern science
-- How to **see the metadata** of files on your own computer
-
-## 💻 Try it yourself
-
-**Windows:** right-click any file → **Properties** → **Details**. You'll see the author, the program, and the dates the file carries with it.
-**Mac:** select a file → **Get Info** → **More Info**.
-
-Knowing what your files carry helps you decide what to share, and keeps you safer online.
-
-> 🎯 **Learn technology · Stay alert · Stay safe**
+> 🎯 **Stay vigilant · Protect people · Stop crime**
 
 ---
 
-<sub>ℹ️ Based on publicly available reports, published records and news coverage, told for educational purposes. Scenes are AI-illustrated dramatizations; characters are not depictions of real people. Not affiliated with any person, agency or organization mentioned. Told with respect for everyone affected by these events.</sub>
+<sub>ℹ️ An entertainment series based on publicly available reports, published records and news coverage. Scenes are illustrated dramatizations; characters are not depictions of real people. Not affiliated with any person, agency or organization mentioned. Told with respect for everyone affected by these events.</sub>

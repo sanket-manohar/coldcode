@@ -31,11 +31,10 @@ data.episodes.push({
   title: { en: titleEn, hi: titleHi },
   subtitle: { en: "", hi: "" },
   summary: { en: "", hi: "" },
-  learn: { en: [], hi: [] },
   year: "", location: "", technology: "", duration: "",
   youtube: { en: "", hi: "" },
   poster: "",
   references_pdf: `episodes/${slug}/COLD-CODE-Case-${String(number).padStart(2, "0")}-Sources.pdf`
 });
 writeFileSync(jsonPath, JSON.stringify(data, null, 2) + "\n");
-console.log(`Episode ${number} created → episodes/${slug}/  (fill in data/episodes.json (titles, summary, learn list, YouTube link), then put COLD-CODE-Case-${String(number).padStart(2, "0")}-Sources.pdf in the folder)`);
+console.log(`Episode ${number} created → episodes/${slug}/  (fill in data/episodes.json (titles, summary, YouTube link), then put COLD-CODE-Case-${String(number).padStart(2, "0")}-Sources.pdf in the folder)`);

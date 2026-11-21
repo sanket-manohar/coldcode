@@ -3,8 +3,8 @@
     "name": "COLD CODE",
     "studio": "Sanket Manohar Studio",
     "tagline": {
-      "en": "Learn technology. Stay alert. Stay safe in the digital age.",
-      "hi": "टेक्नोलॉजी सीखिए। सतर्क रहिए। डिजिटल दौर में सुरक्षित रहिए।"
+      "en": "Real crime stories. Solved by technology.",
+      "hi": "असली अपराध कहानियाँ। टेक्नोलॉजी से सुलझीं।"
     },
     "youtube_channel": "https://www.youtube.com/@sanketmanoharstudio"
   },
@@ -13,7 +13,7 @@
       "number": 1,
       "slug": "EP01-the-floppy-disk-mystery",
       "status": "released",
-      "release_date": "2026-11-20",
+      "release_date": "2026-11-21",
       "title": {
         "en": "The Floppy Disk That Solved a 30-Year Mystery",
         "hi": "वो फ़्लॉपी डिस्क जिसने 30 साल पुराना रहस्य सुलझाया"
@@ -23,30 +23,17 @@
         "hi": "फ़ाइल के छिपे मेटाडेटा ने सच कैसे सामने लाया"
       },
       "summary": {
-        "en": "For 30 years, a case in Wichita, Kansas stayed unsolved. Then a single floppy disk arrived, and inside one Word file was something few people knew existed: metadata. This episode shows how file metadata and DNA science brought out the truth, and how the same technology quietly works inside the files on your own computer.",
-        "hi": "30 साल तक विचिटा, कैनसस का एक केस अनसुलझा रहा। फिर एक फ़्लॉपी डिस्क आई, और उसकी एक Word फ़ाइल में कुछ ऐसा था जिसके बारे में बहुत कम लोग जानते थे: मेटाडेटा। यह एपिसोड दिखाता है कि फ़ाइल मेटाडेटा और डीएनए विज्ञान ने सच कैसे सामने लाया, और यही टेक्नोलॉजी आपके अपने कंप्यूटर की फ़ाइलों में चुपचाप कैसे काम करती है।"
-      },
-      "learn": {
-        "en": [
-          "What file metadata is, and what a document records about itself",
-          "How a floppy disk stores files, even after they are deleted",
-          "How DNA comparison works in modern science",
-          "How to view the metadata of files on your own computer"
-        ],
-        "hi": [
-          "फ़ाइल मेटाडेटा क्या है, और एक डॉक्यूमेंट अपने बारे में क्या दर्ज करता है",
-          "फ़्लॉपी डिस्क फ़ाइलें कैसे सेव करती है, डिलीट होने के बाद भी",
-          "आधुनिक विज्ञान में डीएनए की तुलना कैसे होती है",
-          "अपने कंप्यूटर की फ़ाइलों का मेटाडेटा कैसे देखें"
-        ]
+        "en": "For 30 years, a series of crimes in Wichita, Kansas stayed unsolved. Then a single floppy disk arrived, and inside one Word file was something nobody expected: hidden metadata. Together with DNA science, that tiny trace of data finally brought out the truth.",
+        "hi": "30 साल तक विचिटा, कैनसस के अपराध अनसुलझे रहे। फिर एक फ़्लॉपी डिस्क आई, और उसकी एक Word फ़ाइल में कुछ ऐसा था जिसकी किसी को उम्मीद नहीं थी: छिपा हुआ मेटाडेटा। डीएनए विज्ञान के साथ, डेटा के उस छोटे से निशान ने आख़िरकार सच सामने ला दिया।"
       },
       "year": "1974–2005",
       "location": "Wichita, Kansas, USA",
       "technology": "File Metadata & DNA",
       "duration": "11:00",
       "youtube": {
-        "en": "https://www.youtube.com/watch?v=4_WRsYWUSXU",
-        "hi": "https://www.youtube.com/watch?v=4_WRsYWUSXU"
+        "en": "https://www.youtube.com/watch?v=LHEsMbhs1wE",
+        "hi": "https://www.youtube.com/watch?v=LHEsMbhs1wE",
+        "es": "https://www.youtube.com/watch?v=LHEsMbhs1wE"
       },
       "poster": "",
       "references_pdf": "episodes/EP01-the-floppy-disk-mystery/COLD-CODE-Case-01-Sources.pdf"

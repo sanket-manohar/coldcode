@@ -3,147 +3,101 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>COLD CODE — A YouTube Documentary Series</title>
-  <meta name="description" content="COLD CODE is an educational YouTube series. Learn technology, stay alert and stay safe in the digital age. Real stories of how technology uncovered the truth, in English and Hindi." />
-  <meta property="og:title" content="COLD CODE — A YouTube Documentary Series" />
-  <meta property="og:description" content="Learn technology. Stay alert. Stay safe in the digital age. Watch on YouTube in English and Hindi." />
-  <meta name="theme-color" content="#0b0d0b" />
+  <title>COLD CODE — Real Crime Stories, Solved by Technology · A YouTube Series</title>
+  <meta name="description" content="COLD CODE is an entertainment series on YouTube about real crime stories solved by technology. In English, Hindi and Spanish." />
+  <meta property="og:title" content="COLD CODE — Real crime stories, solved by technology" />
+  <meta property="og:description" content="An entertainment series on YouTube. Stay vigilant. Protect people. Stop crime." />
+  <meta property="og:image" content="assets/img/og-cover.jpg" />
+  <meta name="theme-color" content="#f6efe4" />
+  <link rel="preload" as="image" href="assets/img/morning.webp" type="image/webp" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Special+Elite&family=IBM+Plex+Mono:wght@400;600&family=Tiro+Devanagari+Hindi&family=Noto+Sans+Devanagari:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Special+Elite&family=IBM+Plex+Mono:wght@400;600&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-<body>
+<body class="home">
 
-  <!-- ░░ INTRO: title card, like the opening of a show ░░ -->
+  <!-- ░░ INTRO: the fog lifts ░░ -->
   <div id="intro" aria-hidden="true">
-    <p class="intro-pre" data-i18n="intro_pre">A documentary series on YouTube</p>
-    <div class="intro-logo glitch" data-text="COLD CODE">COLD CODE</div>
-    <p class="intro-post" data-i18n="intro_post">Season 1 · English &amp; हिन्दी</p>
-    <button class="intro-skip" id="introSkip" data-i18n="skip">SKIP ▸</button>
+    <p class="intro-pre" data-i18n="intro_pre">A series on YouTube</p>
+    <div class="intro-logo">COLD CODE</div>
+    <p class="intro-post" data-i18n="intro_post">Stay vigilant · Protect people · Stop crime</p>
   </div>
 
-  <canvas id="grain" aria-hidden="true"></canvas>
-  <div class="scanlines" aria-hidden="true"></div>
-  <div class="vignette" aria-hidden="true"></div>
+  <!-- ░░ BACKGROUND: misty morning ░░ -->
+  <div class="scene" aria-hidden="true">
+    <div class="scene-img"></div>
+    <div class="sun"></div>
+    <div class="fog fog-1"></div>
+    <div class="fog fog-2"></div>
+    <div class="fog fog-3"></div>
+    <div class="wash"></div>
+    <div class="glow" id="glow"></div>
+    <canvas id="grain"></canvas>
+  </div>
 
-  <!-- ░░ NAV: three things only ░░ -->
-  <header class="nav">
-    <a href="#top" class="nav-logo"><span class="yt-dot">▶</span>COLD<b>CODE</b></a>
-    <nav class="nav-links">
-      <a href="#episodes" data-i18n="nav_episodes">Episodes</a>
-      <a href="#about" data-i18n="nav_about">About</a>
-      <a href="terms.html" data-i18n="nav_terms">Terms</a>
-    </nav>
-    <div class="nav-right">
-      <div class="lang-switch" role="group" aria-label="Language">
-        <button data-lang="en" class="active">EN</button>
-        <button data-lang="hi">हिं</button>
-      </div>
-      <a class="btn-sub" id="subscribeBtn" href="#" target="_blank" rel="noopener"><span class="yt-icon" aria-hidden="true"></span><span data-i18n="subscribe">Subscribe</span></a>
-    </div>
-  </header>
-
-  <main id="top">
-
-    <!-- ░░ HERO ░░ -->
-    <section class="hero" id="hero">
-      <div class="hero-dark"></div>
-      <div class="hero-hidden" aria-hidden="true">
-        <span>LEARN TECHNOLOGY</span>
-        <span>STAY ALERT</span>
-        <span>STAY SAFE</span>
-        <span>सतर्क रहिए</span>
-      </div>
-      <div class="hero-content">
-        <p class="series-badge"><span class="yt-icon" aria-hidden="true"></span><span data-i18n="badge">A YouTube documentary series · English &amp; हिन्दी</span></p>
-        <h1 class="hero-title glitch" data-text="COLD CODE">COLD CODE</h1>
-        <p class="hero-tagline" id="tagline"></p>
-        <p class="hero-desc" data-i18n="hero_desc">Real stories where technology uncovered the truth, and the science behind it, explained simply so you can learn it too.</p>
-        <div class="hero-cta">
-          <a href="#latest" class="btn btn-red" data-i18n="cta_latest">▶ Watch latest episode</a>
-          <a href="#episodes" class="btn btn-ghost" data-i18n="cta_all">All episodes</a>
+  <div class="app">
+    <!-- ░░ TOP BAR ░░ -->
+    <header class="bar">
+      <a href="./" class="logo"><span class="yt-icon" aria-hidden="true"></span>COLD<b>CODE</b></a>
+      <nav class="bar-nav">
+        <button class="link" data-panel="about" data-i18n="nav_about">About</button>
+        <a class="link" href="terms.html" data-i18n="nav_terms">Terms</a>
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button data-lang="en" class="active">EN</button>
+          <button data-lang="hi">हिं</button>
         </div>
-      </div>
-      <div class="hero-hint" data-i18n="hint">move your flashlight</div>
+        <a class="btn-sub" id="subscribeBtn" href="#" target="_blank" rel="noopener"><span class="yt-icon" aria-hidden="true"></span><span data-i18n="subscribe">Subscribe</span></a>
+      </nav>
+    </header>
+
+    <!-- ░░ MAIN STAGE ░░ -->
+    <main class="stage">
+      <section class="hero">
+        <p class="badge rise" style="--d:.1s"><span class="yt-icon" aria-hidden="true"></span><span data-i18n="badge">An entertainment series on YouTube · English · हिन्दी · Español</span></p>
+        <h1 class="title rise" style="--d:.2s"><span>COLD</span> <span>CODE</span></h1>
+        <p class="tagline rise" style="--d:.35s" id="tagline"></p>
+        <p class="desc rise" style="--d:.45s" data-i18n="hero_desc">True cases that stayed unsolved for years, until technology found the answer. Told to keep us vigilant against crime around us, protect the people we care about and help stop crime.</p>
+        <ul class="motto rise" style="--d:.55s">
+          <li><b>01</b><span data-i18n="m1_t">Stay vigilant</span></li>
+          <li><b>02</b><span data-i18n="m2_t">Protect people</span></li>
+          <li><b>03</b><span data-i18n="m3_t">Stop crime</span></li>
+        </ul>
+        <p class="never rise" style="--d:.65s" data-i18n="never">These stories have one purpose: to keep us vigilant against the crimes happening around us, to protect people and to help stop crime. Never to misuse technology.</p>
+      </section>
+
+      <section class="feature rise" style="--d:.4s" id="feature" aria-live="polite"></section>
+    </main>
+
+    <!-- ░░ EPISODE RAIL ░░ -->
+    <section class="rail-wrap rise" style="--d:.7s">
+      <p class="rail-label" data-i18n="episodes_title">Episodes</p>
+      <div class="rail" id="rail"></div>
     </section>
 
-    <!-- ░░ FILM STRIP ░░ -->
-    <div class="strip-wrap" aria-hidden="true">
-      <div class="strip"><div class="strip-track" data-strip></div></div>
-    </div>
+    <!-- ░░ FOOT LINE ░░ -->
+    <footer class="foot">
+      <p data-i18n="foot_short">An independent entertainment series on YouTube. Not affiliated with any government department, agency or organization.</p>
+      <p><a href="terms.html" data-i18n="nav_terms">Terms</a> · © <span id="year"></span> Sanket Manohar Studio</p>
+    </footer>
+  </div>
 
-    <!-- ░░ LATEST ░░ -->
-    <section class="section" id="latest">
-      <div class="section-head reveal">
-        <span class="section-no">01</span>
-        <h2 data-i18n="latest_title">Latest Episode</h2>
+  <!-- ░░ ABOUT PANEL ░░ -->
+  <div class="panel" id="panel-about" hidden>
+    <div class="panel-backdrop" data-close></div>
+    <article class="panel-card" role="dialog" aria-modal="true" aria-labelledby="aboutTitle">
+      <button class="panel-close" data-close aria-label="Close">✕</button>
+      <p class="kicker" data-i18n="about_kicker">ABOUT THE SERIES</p>
+      <h2 id="aboutTitle" data-i18n="about_title">What is COLD CODE?</h2>
+      <p data-i18n="about_p1"></p>
+      <p data-i18n="about_p2"></p>
+      <div class="motto-cards">
+        <div><b>01</b><strong data-i18n="m1_t">Stay vigilant</strong><span data-i18n="m1_d"></span></div>
+        <div><b>02</b><strong data-i18n="m2_t">Protect people</strong><span data-i18n="m2_d"></span></div>
+        <div><b>03</b><strong data-i18n="m3_t">Stop crime</strong><span data-i18n="m3_d"></span></div>
       </div>
-      <div class="featured reveal" id="featuredBox"></div>
-    </section>
-
-    <!-- ░░ EPISODES ░░ -->
-    <section class="section" id="episodes">
-      <div class="section-head reveal">
-        <span class="section-no">02</span>
-        <h2 data-i18n="episodes_title">Episodes</h2>
-      </div>
-      <div class="cases-grid" id="casesGrid"></div>
-    </section>
-
-    <!-- ░░ ABOUT ░░ -->
-    <section class="section about" id="about">
-      <div class="dossier reveal">
-        <div class="paperclip"></div>
-        <p class="mono small" data-i18n="about_kicker">ABOUT THE SERIES</p>
-        <h2 data-i18n="about_title">What is COLD CODE?</h2>
-        <p data-i18n="about_p1">COLD CODE is an educational series on YouTube about the power of technology.</p>
-        <p data-i18n="about_p2">Every episode is researched from public sources and its reference list is published alongside the video.</p>
-        <p data-i18n="about_p3">Available in English and Hindi.</p>
-        <h3 class="motto-title" data-i18n="motto_title">Our motto</h3>
-        <div class="motto">
-          <div><b>01</b><strong data-i18n="m1_t">Learn technology</strong><span data-i18n="m1_d"></span></div>
-          <div><b>02</b><strong data-i18n="m2_t">Stay alert</strong><span data-i18n="m2_d"></span></div>
-          <div><b>03</b><strong data-i18n="m3_t">Stay safe</strong><span data-i18n="m3_d"></span></div>
-        </div>
-        <p class="never" data-i18n="never">We show how technology finds the truth. We never teach how to misuse it.</p>
-        <a class="btn btn-dark" id="aboutYoutube" href="#" target="_blank" rel="noopener" data-i18n="about_cta">▶ Watch on YouTube</a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="footer-line"><span class="yt-dot">▶</span> COLD CODE</div>
-    <p class="disclaimer" data-i18n="disclaimer">COLD CODE is an independent educational YouTube series. Its motto is to learn technology, stay alert and stay safe in the digital age. It shows how technology reveals the truth and never teaches any method of misuse. It is not affiliated with, endorsed by, or acting for any government department, agency or organization. All stories are based on publicly available sources. Scenes are AI-illustrated dramatizations; characters are not depictions of real people.</p>
-    <div class="footer-links">
-      <a id="footYoutube" href="#" target="_blank" rel="noopener">YouTube</a>
-      <a href="terms.html" data-i18n="nav_terms">Terms</a>
-      <a id="footRepo" href="#" target="_blank" rel="noopener">GitHub</a>
-    </div>
-    <p class="mono small">© <span id="year"></span> COLD CODE · Sanket Manohar Studio</p>
-  </footer>
-
-  <!-- ░░ EPISODE POPUP ░░ -->
-  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle" hidden>
-    <div class="modal-backdrop" data-close></div>
-    <article class="modal-file">
-      <button class="modal-close" data-close aria-label="Close">✕</button>
-      <div class="modal-tab" id="mTab"></div>
-      <div class="modal-grid">
-        <div class="modal-media">
-          <div class="player" id="mPlayer"></div>
-          <div class="audio-switch" id="mAudio"></div>
-        </div>
-        <div class="modal-body">
-          <p class="mono small" id="mMeta"></p>
-          <h3 id="mTitle"></h3>
-          <p class="modal-sub" id="mSub"></p>
-          <p class="modal-summary" id="mSummary"></p>
-          <div class="learn" id="mLearn"></div>
-          <dl class="facts" id="mFacts"></dl>
-          <div class="modal-actions" id="mActions"></div>
-        </div>
-      </div>
+      <p class="panel-dis" data-i18n="disclaimer"></p>
+      <a class="btn btn-red" id="aboutYoutube" href="#" target="_blank" rel="noopener" data-i18n="about_cta">▶ Watch on YouTube</a>
     </article>
   </div>
 
